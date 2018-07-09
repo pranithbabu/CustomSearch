@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomSearchClient", "CustomSearch\CustomSearchClient.csproj", "{0E472F7A-9BD8-4914-A0F7-AA91CAFDF326}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchCommands", "GoogleCustomSearchProvider\SearchCommands.csproj", "{C3E05EAB-4D54-4FA9-B8A7-336D7E846211}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleRanksCommand", "GooGleRanksProvider\GoogleRanksCommand.csproj", "{7278B576-CBE9-414A-8D95-0F5A78778C96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleSearchProvider", "GoogleSearchProvider\GoogleSearchProvider.csproj", "{6DF9506B-9C9E-424F-808E-D7A305A4A2FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E472F7A-9BD8-4914-A0F7-AA91CAFDF326}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E472F7A-9BD8-4914-A0F7-AA91CAFDF326}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E472F7A-9BD8-4914-A0F7-AA91CAFDF326}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E472F7A-9BD8-4914-A0F7-AA91CAFDF326}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3E05EAB-4D54-4FA9-B8A7-336D7E846211}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3E05EAB-4D54-4FA9-B8A7-336D7E846211}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3E05EAB-4D54-4FA9-B8A7-336D7E846211}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3E05EAB-4D54-4FA9-B8A7-336D7E846211}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7278B576-CBE9-414A-8D95-0F5A78778C96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7278B576-CBE9-414A-8D95-0F5A78778C96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7278B576-CBE9-414A-8D95-0F5A78778C96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7278B576-CBE9-414A-8D95-0F5A78778C96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DF9506B-9C9E-424F-808E-D7A305A4A2FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DF9506B-9C9E-424F-808E-D7A305A4A2FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DF9506B-9C9E-424F-808E-D7A305A4A2FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DF9506B-9C9E-424F-808E-D7A305A4A2FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
